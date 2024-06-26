@@ -22,9 +22,10 @@ This is a Java-based chat application that allows users to create accounts, logi
 
 ## Run the code:
 1. Compile the Java files:
-
+```
 javac Main.java User.java Settings.java Message.java Chat.java Chat_Individual.java Groupe_Chat.java Chat_History.java
-
+```
 2. Run the application:
-
+```
 java Main
+```
