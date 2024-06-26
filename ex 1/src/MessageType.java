@@ -1,0 +1,3 @@
+enum MessageType {
+    TEXTE, IMAGE, VOIX, VIDEO, FICHIER, LOCATION
+}
