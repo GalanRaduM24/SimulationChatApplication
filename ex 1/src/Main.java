@@ -54,10 +54,10 @@ public class Main {
 
         //Message operations
         Message message1 = new Message(MessageType.IMAGE, "imageimage");
-        Message message2 = new Message(MessageType.TEXTE, "textetexte");
+        Message message2 = new Message(MessageType.TEXT, "textetexte");
         Message message3 = new Message(MessageType.LOCATION, "location");
         message1.Display();
-        message1.setMessage_type(MessageType.FICHIER);
+        message1.setMessage_type(MessageType.FILE);
         message1.getMessage_type();
         message2.Display();
 
